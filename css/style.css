@@ -16,9 +16,12 @@ nav{
   flex-wrap: wrap;
 }
 nav .logo{
+  
   color: rgb(0, 0, 0);
   font-size: 35px;
   font-weight: 600;
+  font-size: 2vw;
+  
 }
 nav ul{
   display: flex;
@@ -98,7 +101,7 @@ input[type="checkbox"]{
   nav ul li a:hover{
     background: red;
     color: rgb(255, 255, 255);
-    height: 5vh;
+    height: 50px;
     width: 20%;
     text-align: center;
     display: block;
