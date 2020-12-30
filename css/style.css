@@ -68,6 +68,7 @@ input[type="checkbox"]{
     content: "\f00d";
   }
   nav ul{
+    z-index: 10;
     position: fixed;
     top: 120px;
     left: -100%;
@@ -98,6 +99,7 @@ input[type="checkbox"]{
     margin-left: 0px;
   }
   nav ul li a.active{
+    z-index: 10;
     background: red;
     color: rgb(255, 255, 255);
     height: 50px;
@@ -192,3 +194,4 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 /*]]>*/
+/* jimdo stop
